@@ -1,9 +1,10 @@
 pipeline {
     agent any
     
-    environment {
-        // Define environment variables if needed
-    }
+        environment {
+    PATH = "C:\\WINDOWS\\SYSTEM32; C:\\Users\\vignesh\\apache-maven-3.9.6\\bin"
+    JAVA_HOME='C:\\Program Files\\Java\\jdk-17'
+        }
     
     stages {
         stage('Checkout') {
