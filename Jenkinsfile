@@ -30,23 +30,4 @@ pipeline {
         }
     }
     
-    post {
-        always {
-            // Clean up steps, e.g., stop services, collect artifacts, etc.
-        }
-        
-        success {
-            // Actions to perform if the build succeeds
-        }
-        
-        failure {
-            // Actions to perform if the build fails
-        }
-        
-        unstable {
-            // Actions to perform if the build is unstable
-        }
-        
-        // Add more post-build actions as needed
-    }
-}
+  
