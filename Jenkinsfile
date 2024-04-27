@@ -9,7 +9,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 // Checkout your source code from your version control system (e.g., Git)
-                git 'your_repository_url'
+                git 'https://github.com/mahasadha/mocktestfinal.git'
             }
         }
         
